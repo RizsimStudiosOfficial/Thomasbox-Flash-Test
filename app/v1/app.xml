@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Powered by Incredibox
+	Incredibox © So Far So Good
+	http://www.sofarsogood.fr
+	http://www.incredibox.com
+	ONLY MADE TO SEE IF I CAN HACK IN THE SOUNDS IN AS A TEST - Rizsim Studios
+-->
+<root>
+
+	<appInfo>
+		<name>Alpha</name>
+		<version>1</version>
+		<annee>2009</annee>
+		<duree>5.84</duree>
+		<frame>260</frame>
+		<bonusloopA>true</bonusloopA>
+		<volencode>0.65</volencode>
+	</appInfo>
+
+	<musique>
+
+		<son picto="picto0" posPicto="49,73">
+			<swf>costume-v2/beat1_boom.swf</swf> <!-- THE SWFS ARE A PLACEHOLDER UNTIL ASSETS ARE FOUND! -->
+			<mp3>sound-v1/beats/1_lead_a.mp3</mp3>
+		</son>
+		<son picto="picto1" posPicto="49,73">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/beats/2_deux_a.mp3</mp3>
+		</son>
+		<son picto="picto2" posPicto="49,73">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/beats/3_kosh_a.mp3</mp3>
+		</son>
+		<son picto="picto3" posPicto="49,73">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/beats/4_shpok_a.mp3</mp3>
+		</son>
+		<son picto="picto4" posPicto="49,73">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/beats/5_tom_a.mp3</mp3>
+		</son>
+
+		<son picto="picto5" posPicto="49,78">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/effects/6_nouana_a.mp3</mp3>
+		</son>
+		<son picto="picto6" posPicto="49,78">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/effects/7_scratch_a.mp3</mp3>
+		</son>
+		<son picto="picto7" posPicto="49,78">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/effects/8_trill.mp3</mp3>
+		</son>
+		<son picto="picto8" posPicto="49,78">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/effects/9_bass_a.mp3</mp3>
+		</son>
+		<son picto="picto9" posPicto="49,78">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/effects/10_uh_a.mp3</mp3>
+		</son>
+		<son picto="picto10" posPicto="49,59">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/melodies/11_nugu_a.mp3</mp3>
+		</son>
+		<son picto="picto11" posPicto="49,59">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/melodies/12_guit_a.mp3</mp3>
+		</son>
+		<son picto="picto12" posPicto="49,59">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/melodies/13_tromp_a.mp3</mp3>
+		</son>
+		<son picto="picto13" posPicto="49,59">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/melodies/14_pouin_a.mp3</mp3>
+		</son>
+		<son picto="picto14" posPicto="49,59">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/melodies/15_tung_a.mp3</mp3>
+		</son>
+
+
+		<son picto="picto15" posPicto="49,61">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/voices/16_aoun_a.mp3</mp3>
+		</son>
+		<son picto="picto16" posPicto="49,61">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/voices/17_hum_a.mp3</mp3>
+		</son>
+		<son picto="picto17" posPicto="49,61">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/voices/18_get_a.mp3</mp3>
+		</son>
+		<son picto="picto18" posPicto="49,69">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/voices/19_tellme_a.mp3</mp3>
+		</son>
+		<son picto="picto19" posPicto="49,69">
+			<swf>costume-v1/beat1_boom.swf</swf>
+			<mp3>sound-v1/voices/20_make_a.mp3</mp3>
+		</son>
+
+
+		<sonBonus picto="bonus0">
+			<mp3>sound-v2/bonus/aspire.mp3</mp3>
+		</sonBonus>
+		<sonBonus picto="bonus1">
+			<mp3>sound-v2/bonus/satisfy.mp3</mp3>
+		</sonBonus>
+		<sonBonus picto="bonus2">
+			<mp3>sound-v2/bonus/little-miss.mp3</mp3>
+		</sonBonus>
+		<sonBonus picto="bonus3">
+			<mp3>sound-v2/bonus/spinin.mp3</mp3>
+		</sonBonus>
+
+	</musique>
+
+	<pathBonus loop="4">
+		<swf code="0,3,5,8,11" visible="0" name="Satisfied">bonus-v2/are-you-satisfy.swf</swf>
+		<swf code="4,5,6,12,14" visible="0" name="Little Miss">bonus-v2/little-miss.swf</swf>
+		<swf code="5,7,8,13,17" visible="0" name="Why this world">bonus-v2/why-this-world.swf</swf>
+	</pathBonus>
+
+	<pathPicto>
+		<swf>picto-v2.swf</swf>
+	</pathPicto>
+
+	<pathIntro>
+		<swf>intro-v2.swf</swf>
+	</pathIntro>
+
+	<pathLogo>
+		<swf>logo-v2.swf</swf>
+	</pathLogo>
+
+</root>
